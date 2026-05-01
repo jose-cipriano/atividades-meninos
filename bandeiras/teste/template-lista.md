@@ -1,10 +1,8 @@
-# {{TITULO}}
+# LISTA DE PRESENÇA - {{MES_EXTENSO}} {{ANO}}
 
 **Nome:** {{NOME_BENEFICIARIO}}  
 **Profissional:** {{NOME_PROFISSIONAL}}  
 **Terapia:** {{TIPO_TERAPIA}}
-
-## Lista de Sessões
 
 <div style="font-size:0.80em;">
 
@@ -16,18 +14,15 @@
 
 <br><br><br>
 
----
-
-<br>
-
 <div align="center">
-  <img src="assinatura-carol.png" alt="Assinatura" width="400" style="display:block; margin:0 auto;" />
+  <img src="assinatura-carol.png" alt="Assinatura" width="720" style="display:block; margin:0 auto;" />
 </div>
 
-<div align="center" style="font-size:0.85em; line-height:1.4;">
+<div align="center" style="font-size:0.75em; line-height:1.3;">
 {{NOME_PROFISSIONAL}}<br>
 {{CARGO_PROFISSIONAL}}<br>
-{{ESPECIALIZACOES_INLINE}}<br>
+{{ESPECIALIZACAO_1}}<br>
+{{ESPECIALIZACAO_2}}<br>
 Registro Profissional: {{REGISTRO_PROFISSIONAL}}<br>
 Contato: {{CONTATO_PROFISSIONAL}}
 </div>
@@ -38,13 +33,13 @@ Contato: {{CONTATO_PROFISSIONAL}}
 
 Estrutura dos Campos Dinâmicos
 1. Título
-{{TITULO}} = Lista de presença - [Mês por extenso AAAA]
-Ex: Lista de presença - Fevereiro 2026
+{{MES_EXTENSO}} = Mês por extenso (ex: Fevereiro)
+{{ANO}} = Ano com 4 dígitos (ex: 2026)
 
 
 2. Dados Fixos (normalmente pouco variáveis)
 {{NOME_BENEFICIARIO}} = Tomás Rollemberg Cipriano
-{{NOME_PROFISSIONAL}} = Carolina Leone
+{{NOME_PROFISSIONAL}} = Caroline Leone
 {{TIPO_TERAPIA}} = Terapia Ocupacional
 
 
@@ -64,7 +59,8 @@ Valores monetários com vírgula (padrão BR)
 4. Rodapé Profissional
 {{CARGO_PROFISSIONAL}} = Terapeuta Ocupacional
 
-{{ESPECIALIZACOES_INLINE}} = Analista do Comportamento Aplicada | Integração Sensorial de Ayres
+{{ESPECIALIZACAO_1}} = Analista do Comportamento Aplicada
+{{ESPECIALIZACAO_2}} = Integração Sensorial de Ayres
 
 {{REGISTRO_PROFISSIONAL}} = CREFITO 3/17817-TO
 {{CONTATO_PROFISSIONAL}} = (16) 98140-0253
