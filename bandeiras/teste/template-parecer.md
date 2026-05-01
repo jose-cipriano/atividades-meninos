@@ -27,7 +27,7 @@ Diante do quadro clínico apresentado, há **indicação para intervenção em T
 
 <br>
 
-Para continuidade do processo terapêutico e evolução do paciente, **certifico a necessidade de seguimento do atendimento de Terapia Ocupacional por tempo indeterminado**, considerando os objetivos terapêuticos definidos no plano de intervenção.
+Para continuidade do processo terapêutico e evolução do paciente, **certifico a necessidade de seguimento do atendimento de Terapia Ocupacional por tempo indeterminado**, considerando os objetivos [...]
 
 <br>
 
@@ -63,16 +63,15 @@ Quantidade esperada: entre 16 e 20 sessões
 <br>
 
 <div align="center">
+  <img src="assinatura-carol.png" alt="Assinatura" width="180" style="display:block; margin:0 auto;" />
+</div>
 
-**{{NOME_PROFISSIONAL}}**  
-Terapeuta Ocupacional  
-
-{{ESPECIALIZACOES}}
-
-Registro Profissional: {{REGISTRO_CONSELHO}}  
-
+<div align="center" style="font-size:0.85em; line-height:1.4;">
+{{NOME_PROFISSIONAL}}<br>
+Terapeuta Ocupacional<br>
+{{ESPECIALIZACOES_INLINE}}<br>
+Registro Profissional: {{REGISTRO_CONSELHO}}<br>
 Contato: {{CONTATO}}
-
 </div>
 
 <br>
@@ -113,5 +112,7 @@ placeholders:
   ESPECIALIZACOES: |
     Analista do Comportamento Aplicada  
     Integração Sensorial de Ayres
+  ESPECIALIZACOES_INLINE: "Analista do Comportamento Aplicada | Integração Sensorial de Ayres"
   REGISTRO_CONSELHO: "CREFITO 3/17817-TO"
   CONTATO: "(16) 98140-0253"
+```
