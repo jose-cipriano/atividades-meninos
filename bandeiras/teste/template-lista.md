@@ -6,9 +6,13 @@
 
 ## Lista de Sessões
 
+<div style="font-size:0.80em;">
+
 | Datas       | Quantidade | Horário de Início | Horário de Término | Assinatura do Beneficiário | Valor por Sessão (R$) |
 |------------|------------|-------------------|--------------------|-----------------------------|------------------------|
 {{LINHAS_SESSOES}}
+
+</div>
 
 <br><br><br>
 
@@ -17,7 +21,7 @@
 <br>
 
 <div align="center">
-  <img src="assinatura-carol.png" alt="Assinatura" width="720" style="display:block; margin:0 auto;" />
+  <img src="assinatura-carol.png" alt="Assinatura" width="400" style="display:block; margin:0 auto;" />
 </div>
 
 <div align="center" style="font-size:0.85em; line-height:1.4;">
