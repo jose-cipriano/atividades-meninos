@@ -119,17 +119,17 @@
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Canadá</div></div>
 </div>
 
-</div>
-
-<!-- PÁGINA 2 -->
-<div class="page">
-
 <div class="row">
   <div class="flag-space"><div class="flag-box ratio-qatar"></div><div class="country-name">Catar</div></div>
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Cazaquistão</div></div>
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Chade</div></div>
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Chile</div></div>
 </div>
+
+</div>
+
+<!-- PÁGINA 2 -->
+<div class="page">
 
 <div class="row">
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">China</div></div>
@@ -179,11 +179,6 @@
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Finlândia</div></div>
 </div>
 
-</div>
-
-<!-- PÁGINA 3 -->
-<div class="page">
-
 <div class="row">
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">França</div></div>
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Gabão</div></div>
@@ -199,6 +194,11 @@
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Guiana</div></div>
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Guiné</div></div>
 </div>
+
+</div>
+
+<!-- PÁGINA 3 -->
+<div class="page">
 
 <div class="row">
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Guiné Equatorial</div></div>
@@ -240,11 +240,6 @@
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Líbano</div></div>
 </div>
 
-</div>
-
-<!-- PÁGINA 4 -->
-<div class="page">
-
 <div class="row">
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Libéria</div></div>
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Líbia</div></div>
@@ -268,6 +263,11 @@
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Maurício</div></div>
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Mauritânia</div></div>
 </div>
+
+</div>
+
+<!-- PÁGINA 4 -->
+<div class="page">
 
 <div class="row">
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">México</div></div>
@@ -301,11 +301,6 @@
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Palestina</div></div>
 </div>
 
-</div>
-
-<!-- PÁGINA 5 -->
-<div class="page">
-
 <div class="row">
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Panamá</div></div>
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Papua-Nova Guiné</div></div>
@@ -338,6 +333,11 @@
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">São Cristóvão e Névis</div></div>
 </div>
 
+</div>
+
+<!-- PÁGINA 5 -->
+<div class="page">
+
 <div class="row">
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">São Tomé e Príncipe</div></div>
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">São Vicente e Granadinas</div></div>
@@ -361,11 +361,6 @@
   <div class="flag-space"><div class="flag-box ratio-1x1"></div><div class="country-name">Suíça</div></div>
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Suriname</div></div>
 </div>
-
-</div>
-
-<!-- PÁGINA 6 -->
-<div class="page">
 
 <div class="row">
   <div class="flag-space"><div class="flag-box ratio-3x2"></div><div class="country-name">Tailândia</div></div>
