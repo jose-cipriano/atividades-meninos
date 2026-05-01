@@ -63,7 +63,7 @@ Quantidade esperada: entre 16 e 20 sessões
 <br>
 
 <div align="center">
-  <img src="assinatura-carol.png" alt="Assinatura" width="360" style="display:block; margin:0 auto;" />
+  <img src="assinatura-carol.png" alt="Assinatura" width="720" style="display:block; margin:0 auto;" />
 </div>
 
 <div align="center" style="font-size:0.85em; line-height:1.4;">
