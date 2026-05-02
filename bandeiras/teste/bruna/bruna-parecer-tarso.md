@@ -45,7 +45,7 @@ Quantidade esperada: entre 16 e 20 sessões
 <br><br><br>
 
 <div align="center">
-  <img src="assinatura-bruna.png" alt="Assinatura" width="300" style="display:block; margin:0 auto;" />
+  <img src="assinatura-bruna.png" alt="Assinatura" width="200" style="display:block; margin:0 auto;" />
 </div>
 
 <div align="center" style="font-size:0.75em; line-height:1.3;">
