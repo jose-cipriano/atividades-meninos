@@ -23,7 +23,7 @@ Contudo, para sequência no processo de intervenção, certifico a necessidade d
 <br>
 
 <div align="center">
-  <img src="assinatura-mari.png" alt="Assinatura" width="100" style="display:block; margin:0 auto;" />
+  <img src="assinatura-mari.png" alt="Assinatura" width="92" style="display:block; margin:0 auto;" />
 </div>
 
 <div align="center" style="font-size:0.75em; line-height:1.3;">
