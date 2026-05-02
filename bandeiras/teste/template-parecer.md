@@ -6,6 +6,10 @@ author: {{NOME_PROFISSIONAL}}
 automation_ready: true
 ---
 
+<br><br><br><br><br><br>
+
+<div style="font-size:0.85em; line-height:1.5;">
+
 # Declaração – {{MES_EXTENSO}}
 
 <br>
@@ -23,20 +27,11 @@ O paciente possui diagnóstico de:
   - {{ALTERACOES_PSICOMOTORAS}}
   - {{OUTRAS_OBSERVACOES_CLINICAS}}
 
-Diante do quadro clínico apresentado, há **indicação para intervenção em Terapia Ocupacional com frequência de {{FREQUENCIA_SEMANAL}}**.
+Diante do quadro clínico apresentado, há **indicação para intervenção em Terapia Ocupacional com frequência de {{FREQUENCIA_SEMANAL}}**. Para continuidade do processo terapêutico e evolução do paciente, **certifico a necessidade de seguimento do atendimento de Terapia Ocupacional por tempo indeterminado**, considerando os objetivos terapêuticos em andamento.
 
 <br>
 
-Para continuidade do processo terapêutico e evolução do paciente, **certifico a necessidade de seguimento do atendimento de Terapia Ocupacional por tempo indeterminado**, considerando os objetivos terapêuticos em andamento e a resposta clínica observada.
-
-<br>
-
-As sessões são realizadas na seguinte unidade terapêutica:
-
-**{{NOME_CLINICA}}**  
-{{ENDERECO_COMPLETO}}  
-{{CIDADE}} - {{ESTADO}}  
-CEP: {{CEP}}
+As sessões são realizadas na seguinte unidade terapêutica: **{{NOME_CLINICA}}** - {{ENDERECO_COMPLETO}}, {{CIDADE}} - {{ESTADO}}, CEP: {{CEP}}.
 
 <br><br>
 
@@ -49,16 +44,14 @@ CEP: {{CEP}}
 <!--
 Formato esperado para {{LISTA_SESSOES}}:
 
-DD/MM/AAAA - R$ {{VALOR_SESSAO}} - Terapia Ocupacional
-DD/MM/AAAA - R$ {{VALOR_SESSAO}} - Terapia Ocupacional
+DD/MM/AAAA - R${{VALOR_SESSAO}} - Terapia Ocupacional
+DD/MM/AAAA - R${{VALOR_SESSAO}} - Terapia Ocupacional
 ...
 
 Quantidade esperada: entre 16 e 20 sessões
 -->
 
 <br><br><br>
-
----
 
 <br>
 
@@ -72,6 +65,8 @@ Terapeuta Ocupacional<br>
 {{ESPECIALIZACOES_INLINE}}<br>
 Registro Profissional: {{REGISTRO_CONSELHO}}<br>
 Contato: {{CONTATO}}
+</div>
+
 </div>
 
 <br>
@@ -101,7 +96,7 @@ placeholders:
   FREQUENCIA_SEMANAL: "4x/semana"
 
   NOME_CLINICA: "Affettività"
-  ENDERECO_COMPLETO: "Rua Otto Benz, 864, Nova Ribeirânia"
+  ENDERECO_COMPLETO: "Rua Otto Benz, 864, bairro Nova Ribeirânia"
   CIDADE: "Ribeirão Preto"
   ESTADO: "SP"
   CEP: "14096-580"
