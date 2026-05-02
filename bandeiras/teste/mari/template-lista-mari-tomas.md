@@ -1,3 +1,5 @@
+<br><br><br><br><br><br><br><br><br><br>
+
 **Nome:** {{NOME_BENEFICIARIO}}  
 **Profissional:** {{NOME_PROFISSIONAL}}  
 **Terapia:** {{TIPO_TERAPIA}}  
@@ -30,10 +32,10 @@ Estrutura dos Campos Dinâmicos
 {{ANO}} = Ano com 4 dígitos (ex: 2026)
 
 
-2. Dados Fixos (normalmente pouco variáveis)
-{{NOME_BENEFICIARIO}} = Tomás Rollemberg Cipriano
+2. Dados Fixos (customizáveis por beneficiário)
+{{NOME_BENEFICIARIO}} = Nome do beneficiário (ex: Tomás Rollemberg Cipriano ou Tarso Rollemberg Cipriano)
 {{NOME_PROFISSIONAL}} = Marianne Furtado
-{{TIPO_TERAPIA}} = Terapia Ocupacional
+{{TIPO_TERAPIA}} = Psicoterapia
 
 
 3. Linhas da Tabela (núcleo do template)
@@ -62,6 +64,7 @@ Valores monetários com vírgula (padrão BR)
 Evitar textos longos fora da tabela
 Limitar a tabela a no máximo 20 linhas
 Não adicionar quebras extras (--- ou múltiplos <br>)
+O espaçamento superior (10x <br>) é reservado para o cabeçalho do papel timbrado
 2. Padronização para geração automatizada
 Todos os campos usam {{PLACEHOLDER}}
 Permite fácil substituição via:
@@ -76,6 +79,7 @@ Valores alinhados ao acordo mensal
 4. Possível Prompt de Geração (futuro uso)
 Exemplo de instrução para automação:
 Gerar lista de presença com:
+- Beneficiário: Tomás Rollemberg Cipriano
 - Mês: Março 2026
 - Datas: [lista]
 - Horário início: 09:00
@@ -87,3 +91,4 @@ Esse template já está preparado para evoluir para:
 ✔ Integração com PDFs (HTML → PDF)
 ✔ Uso em pipelines de reembolso
 ✔ Padronização auditável (importante para convênios)
+✔ Reutilização para múltiplos beneficiários (Tomás e Tarso)
