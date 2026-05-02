@@ -15,7 +15,7 @@
 <br><br><br>
 
 <div align="center">
-  <img src="assinatura-carol.png" alt="Assinatura" width="400" style="display:block; margin:0 auto;" />
+  <img src="assinatura-carol.png" alt="Assinatura" width="320" style="display:block; margin:0 auto;" />
 </div>
 
 <div align="center" style="font-size:0.75em; line-height:1.3;">
