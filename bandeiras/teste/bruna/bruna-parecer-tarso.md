@@ -16,7 +16,7 @@ automation_ready: true
 
 **Ribeirão Preto, {{DIA}} de {{MES_EXTENSO}} de {{ANO}}.**
 
-<br><br>
+<br>
 
 O presente documento refere-se ao parecer fisioterapêutico do paciente **Tarso Rollemberg Cipriano**, 6 anos, cujo responsável é **José Carlos Garcia Cipriano**. Foi diagnosticado com CID 10: M62, F84.0, transtornos musculares, alteração de tônus muscular e frouxidão ligamentar, com indicação fisioterapêutica 4x por semana.
 
