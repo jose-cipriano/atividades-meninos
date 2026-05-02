@@ -27,7 +27,7 @@ Diante do quadro clínico apresentado, há **indicação para intervenção em T
 
 <br>
 
-Para continuidade do processo terapêutico e evolução do paciente, **certifico a necessidade de seguimento do atendimento de Terapia Ocupacional por tempo indeterminado**, considerando os objetivos [...]
+Para continuidade do processo terapêutico e evolução do paciente, **certifico a necessidade de seguimento do atendimento de Terapia Ocupacional por tempo indeterminado**, considerando os objetivos terapêuticos em andamento e a resposta clínica observada.
 
 <br>
 
@@ -63,7 +63,7 @@ Quantidade esperada: entre 16 e 20 sessões
 <br>
 
 <div align="center">
-  <img src="assinatura-carol.png" alt="Assinatura" width="720" style="display:block; margin:0 auto;" />
+  <img src="assinatura-carol.png" alt="Assinatura" width="320" style="display:block; margin:0 auto;" />
 </div>
 
 <div align="center" style="font-size:0.85em; line-height:1.4;">
