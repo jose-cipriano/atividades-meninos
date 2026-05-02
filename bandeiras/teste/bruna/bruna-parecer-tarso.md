@@ -6,7 +6,7 @@ author: Bruna Fernandes Marques
 automation_ready: true
 ---
 
-<br><br><br><br><br>
+<br><br><br><br>
 
 <div style="font-size:0.75em; line-height:1.4;">
 
@@ -23,8 +23,6 @@ O presente documento refere-se ao parecer fisioterapêutico do paciente **Tarso 
 Tarso apresenta alterações de tônus muscular global, hipermobilidade principalmente em membros inferiores durante atividades de agilidade e impacto (corridas e pulos), fraqueza de CORE, instabilidade em apoios unipodais e dificuldade em realizar atividades com contração isométrica. Contudo, para sequência no processo de intervenção, certifico a necessidade de seguimento, no atendimento de fisioterapia para o paciente Tarso, por tempo indeterminado.
 
 As sessões acontecem na clínica **Affettività**, sediada na Rua Otto Benz, 864, CEP 14096-580, bairro Nova Ribeirânia, na cidade de Ribeirão Preto, SP.
-
-<br>
 
 ## Registro de Sessões Realizadas no Período
 
