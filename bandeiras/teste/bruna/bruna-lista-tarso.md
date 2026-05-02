@@ -1,96 +1,101 @@
-# LISTA DE PRESENÇA - {{MES_EXTENSO}} {{ANO}}
+<div style="font-size:0.70em; line-height:1.1;">
 
-**Nome:** {{NOME_BENEFICIARIO}}  
-**Profissional:** {{NOME_PROFISSIONAL}}  
-**Terapia:** {{TIPO_TERAPIA}}
+**LISTA DE PRESENÇA - {{MES_EXTENSO}} {{ANO}}** &emsp;&emsp;&emsp;&emsp; **Nome:** {{NOME_BENEFICIARIO}} &emsp; **Profissional:** {{NOME_PROFISSIONAL}} &emsp; **Terapia:** {{TIPO_TERAPIA}}
 
-<div style="font-size:0.80em;">
-
-| Datas       | Quantidade | Horário de Início | Horário de Término | Assinatura do Beneficiário | Valor por Sessão (R$) |
-|------------|------------|-------------------|--------------------|-----------------------------|------------------------|
+<table style="font-size:0.75em; line-height:1.0; border-collapse:collapse; width:100%;">
+<tr style="height:14px;">
+<th style="padding:1px 3px;">Data</th>
+<th style="padding:1px 3px;">Qtd</th>
+<th style="padding:1px 3px;">Horário Início</th>
+<th style="padding:1px 3px;">Horário Término</th>
+<th style="padding:1px 3px;">Responsável do Beneficiário</th>
+<th style="padding:1px 3px;">Valor por Sessão (R$)</th>
+</tr>
 {{LINHAS_SESSOES}}
+</table>
 
-</div>
-
-<br><br><br>
-
-<div align="center">
-  <img src="assinatura-carol.png" alt="Assinatura" width="320" style="display:block; margin:0 auto;" />
-</div>
-
-<div align="center" style="font-size:0.75em; line-height:1.3;">
-{{NOME_PROFISSIONAL}}<br>
-{{CARGO_PROFISSIONAL}}<br>
-{{ESPECIALIZACAO_1}}<br>
-{{ESPECIALIZACAO_2}}<br>
-Registro Profissional: {{REGISTRO_PROFISSIONAL}}<br>
-Contato: {{CONTATO_PROFISSIONAL}}
-</div>
+<!--
+Formato de cada linha (HTML):
+<tr style="height:14px;">
+<td style="padding:1px 3px;">DD/MM/AAAA</td>
+<td style="padding:1px 3px;">1</td>
+<td style="padding:1px 3px;">HH:MM</td>
+<td style="padding:1px 3px;">HH:MM</td>
+<td style="padding:1px 3px;"></td>
+<td style="padding:1px 3px;">42,50</td>
+</tr>
+-->
 
 <br>
 
+<div align="center">
+  <img src="assinatura-bruna.png" alt="Assinatura" width="200" style="display:block; margin:0 auto;" />
+</div>
+
+<div align="center" style="font-size:0.75em; line-height:1.3;">
+<strong>Bruna Fernandes Marques</strong><br>
+Fisioterapeuta<br>
+Crefito 3/273801-F
+</div>
+
+</div>
+
 ---
 
-Estrutura dos Campos Dinâmicos
-1. Título
-{{MES_EXTENSO}} = Mês por extenso (ex: Fevereiro)
-{{ANO}} = Ano com 4 dígitos (ex: 2026)
+## ⚙️ METADADOS PARA AUTOMAÇÃO
 
+```yaml
+placeholders:
+  MES_EXTENSO: "Fevereiro"
+  ANO: "2026"
 
-2. Dados Fixos (normalmente pouco variáveis)
-{{NOME_BENEFICIARIO}} = Tomás Rollemberg Cipriano
-{{NOME_PROFISSIONAL}} = Caroline Leone
-{{TIPO_TERAPIA}} = Terapia Ocupacional
+  NOME_BENEFICIARIO: "Tarso Rollemberg Cipriano"   # ou "Tomás Rollemberg Cipriano"
+  NOME_PROFISSIONAL: "Bruna Fernandes Marques"
+  TIPO_TERAPIA: "Fisioterapia"
 
+  VALOR_SESSAO: "42,50"
 
-3. Linhas da Tabela (núcleo do template)
-Cada linha deve seguir exatamente este padrão:
-| DD/MM/AAAA | 1 | HH:MM | HH:MM |                     | 00,00 |
-Exemplo:
-| 02/02/2026 | 1 | 09:00 | 10:00 |                     | 85,00 |
-Placeholder:
-{{LINHAS_SESSOES}}
-Regras:
-Entre 16 e 20 linhas
-Campo "Assinatura" deve permanecer vazio (espaço para assinatura manual)
-Valores monetários com vírgula (padrão BR)
+  NOME_ASSINATURA: "Bruna Fernandes Marques"
+  CARGO: "Fisioterapeuta"
+  REGISTRO: "Crefito 3/273801-F"
+```
 
+### Regras de Horário por Cenário
 
-4. Rodapé Profissional
-{{CARGO_PROFISSIONAL}} = Terapeuta Ocupacional
+```yaml
+cenarios_horario:
+  tarso_rollemberg_cipriano:
+    # Sempre horário fixo
+    horario_inicio: "10:00"
+    horario_termino: "11:00"
 
-{{ESPECIALIZACAO_1}} = Analista do Comportamento Aplicada
-{{ESPECIALIZACAO_2}} = Integração Sensorial de Ayres
+  tomas_rollemberg_cipriano:
+    # Se a mesma data aparece duas vezes na lista:
+    primeira_ocorrencia:
+      horario_inicio: "08:00"
+      horario_termino: "09:00"
+    segunda_ocorrencia:
+      horario_inicio: "09:00"
+      horario_termino: "10:00"
+    # Se a data aparece apenas uma vez:
+    data_unica:
+      horario_inicio: "09:00"
+      horario_termino: "10:00"
+```
 
-{{REGISTRO_PROFISSIONAL}} = CREFITO 3/17817-TO
-{{CONTATO_PROFISSIONAL}} = (16) 98140-0253
-⚙️ Diretrizes Técnicas para Uso com Claude Opus / Automação
-1. Controle de Layout (A4 - 1 página)
-Evitar textos longos fora da tabela
-Limitar a tabela a no máximo 20 linhas
-Não adicionar quebras extras (--- ou múltiplos <br>)
-2. Padronização para geração automatizada
-Todos os campos usam {{PLACEHOLDER}}
-Permite fácil substituição via:
-Prompt estruturado
-Script
-Sub-agente
-3. Regras de consistência
-Datas sempre no formato DD/MM/AAAA
-Horários fixos ou parametrizáveis
-Quantidade sempre 1 (como no padrão do PDF)
-Valores alinhados ao acordo mensal
-4. Possível Prompt de Geração (futuro uso)
-Exemplo de instrução para automação:
-Gerar lista de presença com:
-- Mês: Março 2026
-- Datas: [lista]
-- Horário início: 09:00
-- Horário término: 10:00
-- Valor: 85,00
-💡 Observação Estratégica
-Esse template já está preparado para evoluir para:
-✔ Geração automática mensal
-✔ Integração com PDFs (HTML → PDF)
-✔ Uso em pipelines de reembolso
-✔ Padronização auditável (importante para convênios)
+### Diretrizes de Layout
+
+```yaml
+layout:
+  formato: A4
+  max_sessoes: 34
+  font_size_tabela: "0.75em"
+  line_height_tabela: "1.0"
+  row_height: "14px"
+  cell_padding: "1px 3px"
+  observacao: >
+    A tabela usa HTML com altura de linha reduzida para
+    comportar até 34 sessões em uma única página A4.
+    O campo 'Responsável do Beneficiário' permanece em
+    branco para assinatura manual.
+```
