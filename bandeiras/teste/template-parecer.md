@@ -29,8 +29,6 @@ O paciente possui diagnóstico de:
 
 Diante do quadro clínico apresentado, há **indicação para intervenção em Terapia Ocupacional com frequência de {{FREQUENCIA_SEMANAL}}**. Para continuidade do processo terapêutico e evolução do paciente, **certifico a necessidade de seguimento do atendimento de Terapia Ocupacional por tempo indeterminado**, considerando os objetivos terapêuticos em andamento.
 
-<br>
-
 As sessões são realizadas na seguinte unidade terapêutica: **{{NOME_CLINICA}}** - {{ENDERECO_COMPLETO}}, {{CIDADE}} - {{ESTADO}}, CEP: {{CEP}}.
 
 <br><br>
