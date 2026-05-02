@@ -1,14 +1,14 @@
 ---
-document_type: parecer_terapeutico_ocupacional
+document_type: parecer_fisioterapeutico
 version: v1.0
 layout: A4
-author: {{NOME_PROFISSIONAL}}
+author: Bruna Fernandes Marques
 automation_ready: true
 ---
 
 <br><br><br><br><br><br>
 
-<div style="font-size:0.85em; line-height:1.5;">
+<div style="font-size:0.75em; line-height:1.4;">
 
 # Declaração – {{MES_EXTENSO}}
 
@@ -18,18 +18,11 @@ automation_ready: true
 
 <br><br>
 
-O presente documento refere-se ao parecer terapêutico ocupacional do paciente **{{NOME_PACIENTE}}**, cujo responsável legal é **{{NOME_RESPONSAVEL}}**.
+O presente documento refere-se ao parecer fisioterapêutico do paciente **Tarso Rollemberg Cipriano**, 6 anos, cujo responsável é **José Carlos Garcia Cipriano**. Foi diagnosticado com CID 10: M62, F84.0, transtornos musculares, alteração de tônus muscular e frouxidão ligamentar, com indicação fisioterapêutica 4x por semana.
 
-O paciente possui diagnóstico de:
-- **Transtorno do Espectro Autista** (CID: {{CID_TEA}})
-- **Transtorno do Processamento Sensorial**, apresentando alterações como:
-  - {{ALTERACOES_COMPORTAMENTAIS}}
-  - {{ALTERACOES_PSICOMOTORAS}}
-  - {{OUTRAS_OBSERVACOES_CLINICAS}}
+Tarso apresenta alterações de tônus muscular global, hipermobilidade principalmente em membros inferiores durante atividades de agilidade e impacto (corridas e pulos), fraqueza de CORE, instabilidade em apoios unipodais e dificuldade em realizar atividades com contração isométrica. Contudo, para sequência no processo de intervenção, certifico a necessidade de seguimento, no atendimento de fisioterapia para o paciente Tarso, por tempo indeterminado.
 
-Diante do quadro clínico apresentado, há **indicação para intervenção em Terapia Ocupacional com frequência de {{FREQUENCIA_SEMANAL}}**. Para continuidade do processo terapêutico e evolução do paciente, **certifico a necessidade de seguimento do atendimento de Terapia Ocupacional por tempo indeterminado**, considerando os objetivos terapêuticos em andamento.
-
-As sessões são realizadas na seguinte unidade terapêutica: **{{NOME_CLINICA}}** - {{ENDERECO_COMPLETO}}, {{CIDADE}} - {{ESTADO}}, CEP: {{CEP}}.
+As sessões acontecem na clínica **Affettività**, sediada na Rua Otto Benz, 864, CEP 14096-580, bairro Nova Ribeirânia, na cidade de Ribeirão Preto, SP.
 
 <br><br>
 
@@ -42,8 +35,8 @@ As sessões são realizadas na seguinte unidade terapêutica: **{{NOME_CLINICA}}
 <!--
 Formato esperado para {{LISTA_SESSOES}}:
 
-DD/MM/AAAA - R${{VALOR_SESSAO}} - Terapia Ocupacional
-DD/MM/AAAA - R${{VALOR_SESSAO}} - Terapia Ocupacional
+DD/MM/AAAA - R$42,50 - Atendimento Fisioterapêutico
+DD/MM/AAAA - R$42,50 - Atendimento Fisioterapêutico
 ...
 
 Quantidade esperada: entre 16 e 20 sessões
@@ -51,18 +44,14 @@ Quantidade esperada: entre 16 e 20 sessões
 
 <br><br><br>
 
-<br>
-
 <div align="center">
-  <img src="assinatura-carol.png" alt="Assinatura" width="320" style="display:block; margin:0 auto;" />
+  <img src="assinatura-bruna.png" alt="Assinatura" width="300" style="display:block; margin:0 auto;" />
 </div>
 
-<div align="center" style="font-size:0.85em; line-height:1.4;">
-{{NOME_PROFISSIONAL}}<br>
-Terapeuta Ocupacional<br>
-{{ESPECIALIZACOES_INLINE}}<br>
-Registro Profissional: {{REGISTRO_CONSELHO}}<br>
-Contato: {{CONTATO}}
+<div align="center" style="font-size:0.75em; line-height:1.3;">
+<strong>Bruna Fernandes Marques</strong><br>
+Fisioterapeuta<br>
+Crefito 3/273801-F
 </div>
 
 </div>
@@ -79,18 +68,13 @@ placeholders:
   DIA: "02"
   ANO: "2026"
 
-  NOME_PACIENTE: "Tomás Rollemberg Cipriano"
+  NOME_PACIENTE: "Tarso Rollemberg Cipriano"
   NOME_RESPONSAVEL: "José Carlos Garcia Cipriano"
 
-  CID_TEA: "F84 / 6A02"
+  CID: "M62 / F84.0"
 
-  ALTERACOES_COMPORTAMENTAIS:
-    - "agitação"
-    - "brincar repetitivo"
-
-  ALTERACOES_PSICOMOTORAS: "alterações psicomotoras"
-  OUTRAS_OBSERVACOES_CLINICAS: "motricidade fina comprometida"
-
+  VALOR_SESSAO: "42,50"
+  TIPO_ATENDIMENTO: "Atendimento Fisioterapêutico"
   FREQUENCIA_SEMANAL: "4x/semana"
 
   NOME_CLINICA: "Affettività"
@@ -99,13 +83,6 @@ placeholders:
   ESTADO: "SP"
   CEP: "14096-580"
 
-  VALOR_SESSAO: "85,00"
-
-  NOME_PROFISSIONAL: "Caroline Leone"
-  ESPECIALIZACOES: |
-    Analista do Comportamento Aplicada  
-    Integração Sensorial de Ayres
-  ESPECIALIZACOES_INLINE: "Analista do Comportamento Aplicada | Integração Sensorial de Ayres"
-  REGISTRO_CONSELHO: "CREFITO 3/17817-TO"
-  CONTATO: "(16) 98140-0253"
+  NOME_PROFISSIONAL: "Bruna Fernandes Marques"
+  REGISTRO_CONSELHO: "Crefito 3/273801-F"
 ```
