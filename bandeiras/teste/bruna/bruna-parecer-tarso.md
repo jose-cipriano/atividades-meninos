@@ -6,7 +6,7 @@ author: Bruna Fernandes Marques
 automation_ready: true
 ---
 
-<br><br><br><br><br><br>
+<br><br><br><br><br>
 
 <div style="font-size:0.75em; line-height:1.4;">
 
@@ -24,7 +24,7 @@ Tarso apresenta alterações de tônus muscular global, hipermobilidade principa
 
 As sessões acontecem na clínica **Affettività**, sediada na Rua Otto Benz, 864, CEP 14096-580, bairro Nova Ribeirânia, na cidade de Ribeirão Preto, SP.
 
-<br><br>
+<br>
 
 ## Registro de Sessões Realizadas no Período
 
