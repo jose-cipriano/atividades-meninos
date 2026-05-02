@@ -10,7 +10,7 @@ automation_ready: true
 
 <div style="font-size:0.75em; line-height:1.4;">
 
-# Declaração – {{MES_EXTENSO}}
+# Parecer de Fisioterapia
 
 <br>
 
