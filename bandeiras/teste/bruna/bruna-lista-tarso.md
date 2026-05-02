@@ -1,6 +1,9 @@
 <div style="font-size:0.70em; line-height:1.1;">
 
-**LISTA DE PRESENÇA - {{MES_EXTENSO}} {{ANO}}** &emsp;&emsp;&emsp;&emsp; **Nome:** {{NOME_BENEFICIARIO}} &emsp; **Profissional:** {{NOME_PROFISSIONAL}} &emsp; **Terapia:** {{TIPO_TERAPIA}}
+<div style="display:flex; justify-content:space-between; align-items:baseline;">
+<span><strong>Nome:</strong> {{NOME_BENEFICIARIO}} &emsp; <strong>Profissional:</strong> {{NOME_PROFISSIONAL}} &emsp; <strong>Terapia:</strong> {{TIPO_TERAPIA}}</span>
+<span><strong>LISTA DE PRESENÇA - {{MES_EXTENSO}} {{ANO}}</strong></span>
+</div>
 
 <table style="font-size:0.75em; line-height:1.0; border-collapse:collapse; width:100%;">
 <tr style="height:14px;">
