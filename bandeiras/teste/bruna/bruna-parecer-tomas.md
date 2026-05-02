@@ -18,11 +18,11 @@ automation_ready: true
 
 <br>
 
-O presente documento refere-se ao parecer fisioterapêutico do paciente **Tarso Rollemberg Cipriano**, 6 anos, cujo responsável é **José Carlos Garcia Cipriano**. Foi diagnosticado com CID 10: M62, F84.0, transtornos musculares, alteração de tônus muscular e frouxidão ligamentar, com indicação fisioterapêutica 4x por semana.
+O presente documento refere-se ao parecer fisioterapêutico do paciente **Tomás Rollemberg Cipriano**, 6 anos, cujo responsável é **José Carlos Garcia Cipriano**. Foi diagnosticado com Transtorno do Espectro Autista CID10:F.84/6A02 e Transtorno do Processamento Sensorial com alterações psicomotoras, agitação, brincar repetitivo e motricidade fina comprometida, atraso do desenvolvimento global, com indicação para fisioterapia 4x por semana.
 
-Tarso apresenta alterações de tônus muscular global, hipermobilidade principalmente em membros inferiores durante atividades de agilidade e impacto (corridas e pulos), fraqueza de CORE, instabilidade em apoios unipodais e dificuldade em realizar atividades com contração isométrica. Contudo, para sequência no processo de intervenção, certifico a necessidade de seguimento, no atendimento de fisioterapia para o paciente Tarso, por tempo indeterminado.
+Tomás apresenta atraso em habilidades, como coordenação motora global, postura anteriorizada, pés pronados, desequilíbrio postural e hipotonia global. Contudo, para sequência no processo de intervenção, certifico a necessidade de seguimento no atendimento de fisioterapia para o paciente Tomás Rollemberg Cipriano por tempo indeterminado.
 
-As sessões acontecem na clínica **Affettività**, sediada na Rua Otto Benz, 864, CEP 14096-580, bairro Nova Ribeirânia, na cidade de Ribeirão Preto, SP.
+As sessões acontecem na clínica **Affettività**, sediada na Rua: Otto Benz, 864, cep: 14096-580, bairro Nova Ribeirânia, na cidade de Ribeirão Preto, SP.
 
 ## Registro de Sessões Realizadas no Período
 
@@ -66,10 +66,10 @@ placeholders:
   DIA: "02"
   ANO: "2026"
 
-  NOME_PACIENTE: "Tarso Rollemberg Cipriano"
+  NOME_PACIENTE: "Tomás Rollemberg Cipriano"
   NOME_RESPONSAVEL: "José Carlos Garcia Cipriano"
 
-  CID: "M62 / F84.0"
+  CID: "F.84/6A02"
 
   VALOR_SESSAO: "42,50"
   TIPO_ATENDIMENTO: "Atendimento Fisioterapêutico"
