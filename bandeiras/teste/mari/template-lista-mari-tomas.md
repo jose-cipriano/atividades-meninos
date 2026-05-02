@@ -1,8 +1,7 @@
-# LISTA DE PRESENÇA - {{MES_EXTENSO}} {{ANO}}
-
 **Nome:** {{NOME_BENEFICIARIO}}  
 **Profissional:** {{NOME_PROFISSIONAL}}  
-**Terapia:** {{TIPO_TERAPIA}}
+**Terapia:** {{TIPO_TERAPIA}}  
+**Mês de referência:** {{MES_EXTENSO}} de {{ANO}}
 
 <div style="font-size:0.80em;">
 
@@ -12,22 +11,16 @@
 
 </div>
 
-<br><br><br>
+<br>
 
 <div align="center">
-  <img src="assinatura-carol.png" alt="Assinatura" width="400" style="display:block; margin:0 auto;" />
+  <img src="assinatura-mari.png" alt="Assinatura" width="92" style="display:block; margin:0 auto 0 auto;" />
 </div>
 
-<div align="center" style="font-size:0.75em; line-height:1.3;">
-{{NOME_PROFISSIONAL}}<br>
-{{CARGO_PROFISSIONAL}}<br>
-{{ESPECIALIZACAO_1}}<br>
-{{ESPECIALIZACAO_2}}<br>
-Registro Profissional: {{REGISTRO_PROFISSIONAL}}<br>
-Contato: {{CONTATO_PROFISSIONAL}}
+<div align="center" style="font-size:0.65em; line-height:1.4;">
+MARIANNE ANDREA BARBOSA FURTADO<br>
+Psicóloga / CRP: 06/198709
 </div>
-
-<br>
 
 ---
 
@@ -39,7 +32,7 @@ Estrutura dos Campos Dinâmicos
 
 2. Dados Fixos (normalmente pouco variáveis)
 {{NOME_BENEFICIARIO}} = Tomás Rollemberg Cipriano
-{{NOME_PROFISSIONAL}} = Caroline Leone
+{{NOME_PROFISSIONAL}} = Marianne Furtado
 {{TIPO_TERAPIA}} = Terapia Ocupacional
 
 
@@ -57,13 +50,13 @@ Valores monetários com vírgula (padrão BR)
 
 
 4. Rodapé Profissional
-{{CARGO_PROFISSIONAL}} = Terapeuta Ocupacional
+{{CARGO_PROFISSIONAL}} = Psicóloga
 
-{{ESPECIALIZACAO_1}} = Analista do Comportamento Aplicada
-{{ESPECIALIZACAO_2}} = Integração Sensorial de Ayres
+{{ESPECIALIZACAO_1}} = (não aplicável)
+{{ESPECIALIZACAO_2}} = (não aplicável)
 
-{{REGISTRO_PROFISSIONAL}} = CREFITO 3/17817-TO
-{{CONTATO_PROFISSIONAL}} = (16) 98140-0253
+{{REGISTRO_PROFISSIONAL}} = CRP: 06/198709
+{{CONTATO_PROFISSIONAL}} = (a definir)
 ⚙️ Diretrizes Técnicas para Uso com Claude Opus / Automação
 1. Controle de Layout (A4 - 1 página)
 Evitar textos longos fora da tabela
