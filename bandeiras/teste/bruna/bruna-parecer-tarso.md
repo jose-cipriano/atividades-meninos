@@ -40,7 +40,7 @@ DD/MM/AAAA - R$42,50 - Atendimento Fisioterapêutico
 Quantidade esperada: entre 16 e 20 sessões
 -->
 
-<br><br><br>
+<br>
 
 <div align="center">
   <img src="assinatura-bruna.png" alt="Assinatura" width="200" style="display:block; margin:0 auto;" />
